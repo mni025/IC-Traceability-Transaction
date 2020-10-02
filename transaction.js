@@ -9,7 +9,7 @@ var explo = require(“bitcore-explorers”)
 var shell = {}
 
 // Generate a new Bitcoin address
-var slug = “AlwaysBCoding!BitcoinScreencast1”
+var slug = “myNameIsNazmul”
 var hash = bitcore.crypto.Hash.sha256(new Buffer(slug))
 var bn = bitcore.crypto.BN.fromBuffer(hash)
 var pKey = bitcore.PrivateKey(bn)
